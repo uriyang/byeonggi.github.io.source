@@ -92,9 +92,9 @@ sitemap:
 feed:
   type: atom
   path: atom.xml
-  limit: 20
-  hub:
-  content:
+  limit: 0
+  hub: 
+  content: true
 
 
 # Web 크롤러 차단 설정 기본값  false
