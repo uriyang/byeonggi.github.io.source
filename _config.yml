@@ -86,7 +86,8 @@ deploy:
 # sitemap 정적블로그인 Hexo가 검색엔진에 노출되도록 설정함
 sitemap:
     path: sitemap.xml
-
+    tag: false
+    category: false
 
 # RSS 설정  
 feed:
