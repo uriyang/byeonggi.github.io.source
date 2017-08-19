@@ -3,6 +3,7 @@ title: RxJS - 2. RxJS Design Guidelines(2.5 Operator Implementations)
 date: 2017-08-17 17:11:38
 categories: 
 - javascript
+- rxjs
 tags: 
 - rxjs
 - reactiveX

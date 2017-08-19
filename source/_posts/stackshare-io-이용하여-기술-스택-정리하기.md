@@ -3,10 +3,12 @@ title: stackshare.io 서비스를 이용하여 기술 스택 정리하기
 date: 2017-08-19 22:37:00
 categories: 
 - stack
-- portflolio
+- stackshare
+- stackshare.io
 tags: 
 - stack
-- portflolio
+- stackshare
+- stackshare.io
 ---
 
 # stackshare.io 서비스를 이용하여 기술 스택 정리하기

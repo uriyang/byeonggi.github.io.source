@@ -3,6 +3,7 @@ title: RxJS - 2. RxJS Design Guidelines(2.1 Introduction)
 date: 2017-08-17 14:01:11
 categories: 
 - javascript
+- rxjs
 tags: 
 - rxjs
 - reactiveX
