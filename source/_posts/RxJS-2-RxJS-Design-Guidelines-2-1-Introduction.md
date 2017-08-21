@@ -53,13 +53,10 @@ Learning it is hard, even harder by the lack of good material. When I started, I
 
 > **Rx.Observable.prototype.flatMapLatest(selector, [thisArg])**
 
-> Projects each element of an observable sequence into a new sequence of observable sequences by incorporating the element's index and then transforms an observable sequence of observable sequences into an observable sequence producing values only from the most recent observable sequence.
-
-observable 시퀀스의 각각의 요소는 엘리멘트의 인덱스의 결합에 의해서 새로운 observable sequences의 시퀀스로 나오고 그리고 나면   observable sequences의 observable sequence는 가장 최근에 observable sequence로부터 오로지 값들을 주는 observable sequence로 변화된다.
-
+> Projects each element of an observable sequence into a new sequence of observable sequences by incorporating the element's index and then transforms an observable sequence of observable sequences into an observable sequence producing values only from the most recent observable sequence. observable 시퀀스의 각각의 요소는 엘리멘트의 인덱스의 결합에 의해서 새로운 observable sequences의 시퀀스로 나오고 그리고 나면   observable sequences의 observable sequence는 가장 최근에 observable sequence로부터 오로지 값들을 주는 observable sequence로 변화된다.
 
 Holy cow. 
-어익후
+어익후(맙소사!)
 
 I've read two books, one just painted the big picture, while the other dived into how to use the Reactive library. I ended up learning Reactive Programming the hard way: figuring it out while building with it. At my work in [Futurice](https://www.futurice.com) I got to use it in a real project, and had the [support of some colleagues](http://blog.futurice.com/top-7-tips-for-rxjava-on-android) when I ran into troubles.
 
@@ -94,7 +91,7 @@ In a way, this isn't anything new. Event buses or your typical click events are 
 당신은 스트림을 들을수 있고 , 거기에 맞쳐서 반응할수 있다.
 
 **On top of that, you are given an amazing toolbox of functions to combine, create and filter any of those streams.** That's where the "functional" magic kicks in. A stream can be used as an input to another one. Even multiple streams can be used as inputs to another stream. You can _merge_ two streams. You can _filter_ a stream to get another one that has only those events you are interested in. You can _map_ data values from one stream to another new one.
-**무엇보다도, 그러한 스트림들을 생성 하고 분류하는 것을 기능들의 놀라움 도구박스가 주어진다.**  이것은  `함수적인` 마법이 나타나느 것에 있다. 스트림은 어떤 다른 것에 대한 입력에 사용할수가 있다. 심지어든 복함 스트림은 다른 스트립의 입력에서도 사용할수있다. 당신을 두개 스트림들을 _merge_할수있다. 당신은 당신이 관심이 특정 이벤트 가지는 또다른 것으부터 스트림을 필터링할 수있다.
+**무엇보다도, 그러한 스트림들을 생성 하고 분류하는 것을 기능들의 놀라움 도구박스가 주어진다.**  이것은  `함수적인` 마법으로 나타나는 것에 있다. 스트림은 어떤 다른 것에 대한 입력에 사용할수가 있다. 심지어든 복함 스트림은 다른 스트립의 입력에서도 사용할수있다. 당신을 두개 스트림들을 _merge_할수있다. 당신은 당신이 관심이 특정 이벤트 가지는 또다른 것으부터 스트림을 필터링할 수있다.
 
 
 If streams are so central to Reactive, let's take a careful look at them, starting with our familiar "clicks on a button" event stream.
