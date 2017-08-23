@@ -31,6 +31,13 @@ RxJS has no dependencies which complements and interoperates smoothly with both 
 
 다음 다이어그램과 같이 프로미스와 같은 하나의 single-value 비동기적인 연산과 자바스크립에서 iterable objects와 같은 동기적인 데이터 스트림을 가지면서 상호작용과 보완해주면서 RxJS는 동작한다. 
 
+
+
+
+|                                  | Single return value | Mutiple return values |
+| -------------------------------- |:--------------------------------:| ----------------------------------:|
+
+
 <center>
 <table style="display: table">
     <thead>
