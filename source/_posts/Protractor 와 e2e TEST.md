@@ -1,7 +1,13 @@
 ---
 title: Protractor 와 e2e TEST 
 date: 2018-06-30 19:24:00
-tags: BDD , Protractor , Jasmine , TDD , e2e TEST , Angular
+tags: 
+- BDD 
+- Protractor 
+- Jasmine 
+- TDD 
+- e2e TEST 
+- Angular
 ---
 
 # Protractor 와 e2e TEST 

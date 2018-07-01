@@ -1,7 +1,11 @@
 ---
 title: BDD 기본 개념 및 기타 개념
 date: 2018-06-30 19:24:00
-tags: BDD , TEST 코드 , Jasmine , TDD
+tags: 
+- BDD 
+- TEST 코드
+- Jasmine 
+- TDD
 ---
 
 # 1. BDD 기본 개념 및 기타 개념 
